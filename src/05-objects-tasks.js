@@ -58,9 +58,6 @@ function getJSON(obj) {
  *
  */
 function fromJSON(proto, json) {
-  console.log('proto = ', proto);
-  console.log('json = ', json);
-  console.log('JSON.parse = ', JSON.parse(json, proto));
   return JSON.parse(json, proto);
 }
 
